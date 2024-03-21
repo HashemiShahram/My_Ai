@@ -4,7 +4,7 @@ import MobileSidebar from "@/components/Mobile-sidebar";
 
 function Navbar() {
   return (
-    <div className="flex items-center p-4">
+    <div className="flex items-center p-[16px]">
       <MobileSidebar />
       <div className="flex w-full justify-end">
         <UserButton afterSignOutUrl="/" />
